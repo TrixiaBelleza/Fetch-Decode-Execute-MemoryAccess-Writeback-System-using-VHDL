@@ -1,0 +1,337 @@
+$date
+  Sun May 13 03:51:58 2018
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 1 ! fetchflag $end
+$var reg 1 " fetchflagout $end
+$var reg 1 # decodeflag $end
+$var reg 1 $ decodeflagout $end
+$var reg 1 % executeflag $end
+$var reg 1 & executeflagout $end
+$var reg 1 ' memoryflag $end
+$var reg 1 ( memoryflagout $end
+$var reg 1 ) writebackflag $end
+$var reg 1 * writebackflagout $end
+$var reg 1 + edge $end
+$var reg 1 , pc1 $end
+$var reg 1 - pc2 $end
+$var reg 1 . pc3 $end
+$var reg 1 / pc4 $end
+$var reg 1 0 overflow $end
+$var reg 1 1 underflow $end
+$var reg 1 2 signf $end
+$comment tosign is not handled $end
+$var integer 32 3 toint $end
+$scope module fetchstart $end
+$var reg 1 4 a $end
+$var reg 1 5 b $end
+$upscope $end
+$scope module decodestart $end
+$var reg 1 6 a $end
+$var reg 1 7 b $end
+$upscope $end
+$scope module executestart $end
+$var reg 1 8 a $end
+$var reg 1 9 b $end
+$upscope $end
+$scope module memorystart $end
+$var reg 1 : a $end
+$var reg 1 ; b $end
+$upscope $end
+$scope module writebackstart $end
+$var reg 1 < a $end
+$var reg 1 = b $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+1"
+0#
+1$
+0%
+1&
+0'
+1(
+0)
+1*
+1+
+0,
+0-
+0.
+0/
+00
+01
+02
+b10000000000000000000000000000000 3
+04
+15
+06
+17
+08
+19
+0:
+1;
+0<
+1=
+#10000000
+0+
+#20000000
+1!
+1+
+1,
+14
+#30000000
+0!
+0+
+0,
+04
+#40000000
+1!
+1#
+1+
+1-
+14
+16
+#50000000
+0!
+0#
+0+
+0-
+04
+06
+#60000000
+1!
+1#
+1%
+1+
+1,
+1-
+14
+16
+18
+#70000000
+0!
+0#
+0%
+0+
+0,
+0-
+04
+06
+08
+#80000000
+1!
+1#
+1%
+1'
+1+
+1.
+14
+16
+18
+1:
+#90000000
+0!
+0#
+0%
+0'
+0+
+0.
+04
+06
+08
+0:
+#100000000
+1!
+1#
+1%
+1'
+1)
+1+
+1,
+1.
+14
+16
+18
+1:
+1<
+#110000000
+0!
+0#
+0%
+0'
+0)
+0+
+0,
+0.
+04
+06
+08
+0:
+0<
+#120000000
+1#
+1%
+1'
+1)
+1+
+1-
+1.
+16
+18
+1:
+1<
+#130000000
+0#
+0%
+0'
+0)
+0+
+0-
+0.
+06
+08
+0:
+0<
+#140000000
+1%
+1'
+1)
+1+
+1,
+1-
+1.
+18
+1:
+1<
+#150000000
+0%
+0'
+0)
+0+
+0,
+0-
+0.
+08
+0:
+0<
+#160000000
+1'
+1)
+1+
+1/
+1:
+1<
+#170000000
+0'
+0)
+0+
+0/
+0:
+0<
+#180000000
+1)
+1+
+1,
+1/
+1<
+#190000000
+0)
+0+
+0,
+0/
+0<
+#200000000
+1+
+1-
+1/
+#210000000
+0+
+0-
+0/
+#220000000
+1+
+1,
+1-
+1/
+#230000000
+0+
+0,
+0-
+0/
+#240000000
+1+
+1.
+1/
+#250000000
+0+
+0.
+0/
+#260000000
+1+
+1,
+1.
+1/
+#270000000
+0+
+0,
+0.
+0/
+#280000000
+1+
+1-
+1.
+1/
+#290000000
+0+
+0-
+0.
+0/
+#300000000
+1+
+#310000000
+0+
+#320000000
+1+
+#330000000
+0+
+#340000000
+1+
+#350000000
+0+
+#360000000
+1+
+#370000000
+0+
+#380000000
+1+
+#390000000
+0+
+#400000000
+1+
+#410000000
+0+
+#420000000
+1+
+#430000000
+0+
+#440000000
+1+
+#450000000
+0+
+#460000000
+1+
+#470000000
+0+
+#480000000
+1+
+#490000000
+0+
+#500000000
+1+
+#510000000
